@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+    font-family: arial, sans-serif;
+    
+}
+
+.main-container {
+	height: 100vh;
+}
+
+nav {
+	padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+}
+
+.nav-item {
+	list-style: none;
+    font-size: 13px;
+    color: black;
+    opacity: 0.87;
+    font-weight: 200;
+    display: inline-block;
+}
+
+.left .nav-item {
+    margin-left: 15px;
+}
+.right .nav-item {
+    margin-right: 15px;
+}
+
+.right .nav-item:last-child {
+    margin-right: 20px;
+}
+
+.nav-item-white {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    border-bottom: 1px solid #5f6368;
+}
+
+.btn-sign-in {
+    padding: 8px 13px 7px;
+    border: 1px solid #4285f4;
+    background: #4386fa;
+	border-radius: 4px;
+}
+
+header {
+	height: 65vh;
+	/* display: flex;
+	justify-content: center;
+    align-items: center; */
+	position: relative;
+}
+
+.google-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -69%); /* IDENTICNO */
+}
+
+.google-logo {
+	margin-bottom: 28px;
+	width: 272px;
+}
+
+.search-bar {
+	width: 582px;
+	height: 44px;
+	border-radius: 100px;
+	border: 1px solid #dfe1e5;
+	box-shadow: none;
+	padding: 5px 15px;
+	margin: 0 auto;
+}
+
+.search-bar:hover {
+	box-shadow: 0px 1px 6px 0 rgba(32, 33, 36, 0.28);
+	border-color: rgba(223, 225, 229, 0);
+}
+
+.buttons {
+	padding-top: 40px;
+}
+
+a,
+a:link,
+a:active,
+a:hover,
+a:visited {
+	text-decoration: none;
+    border: none;
+    color: inherit;
+}
+
+.buttons a:link,
+.buttons a:visited {
+	color: #5f6368;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 4px;
+	padding: 9px 16px;
+	font-size: 14px;
+	position: relative;
+	left: -7px;
+	height: 36px;
+}
+
+.buttons a:first-child {
+	margin-right: 6px;
+}
+
+.buttons a:hover {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	color: #222;
+}
